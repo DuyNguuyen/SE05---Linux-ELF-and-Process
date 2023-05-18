@@ -1,0 +1,17 @@
+Chạy chương trình với lệnh:
+			./proccess_viewer [wait time] [mode] [order]
+
+[wait_time]: số nguyên dương khác không. Xác định thời gian chờ giữa mỗi lần cập nhật. Mặc định: 10.
+[mode] (Không bắt buộc): số nguyên dương xác định chế độ sắp xếp:
+				1 - Sắp xếp theo PID
+				2 - Sắp xếp theo PPID
+				3 - Sắp xếp theo thời điểm bắt đầu
+				4 - Sắp xếp theo tổng thời gian chạy
+				5 - Sắp xếp theo %CPU 
+				6 - Sắp xếp theo %MEM
+				mặc định - không sắp xếp, thể hiện theo sơ đồ parent-child
+[order] : 0 - sắp xếp theo chiều giảm dần
+          1 - sắp xếp theo chiều tăng dần
+          mặc định = 0
+          
+Ở các chế độ sắp xếp, sử dụng phím di chuyển để di chuyển để xem các process tiếp theo hoặc trước đó.
